@@ -10,3 +10,57 @@ body {
 }
 
 /* Add styles here! */
+html, body {
+  height: 100%;
+}
+
+.max-width-wrapper {
+  height: 50%;
+  padding-top: 64px;
+}
+
+.intro-chunk {
+  width: 80%;
+  padding: 16px;
+  margin: auto;
+}
+
+div.max-width-wrapper {
+  border-bottom: 5px solid hsl(0deg, 0%, 60%);
+}
+
+section.max-width-wrapper {
+  background-color: hsl(0deg, 0%, 40%);
+}
+
+.card {
+  width: 80%;
+  padding: 16px;
+  padding-top: 8px;
+  background-color: white;
+  border-bottom: 5px solid hsl(0deg, 0%, 60%);
+  margin: auto;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.card .indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 5px solid hsl(45deg, 100%, 40%);
+  width: fit-content;
+  padding: 8px;
+  margin-left: -32px;
+  padding-left: 32px;
+  padding-right: 24px;
+}
+
+@media (max-width: 850px) {
+  .card {
+    width: 100%;
+  }
+  .intro-chunk {
+    width: 100%;
+  }
+}
